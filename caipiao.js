@@ -1,8 +1,5 @@
 const http = require("http");
 const nodemailer = require("nodemailer");
-const dataurl = "http://f.apiplus.net/dlt.json";
-const key = require('./config').key
-// 每周一、三、六开奖
 class CaipiaoMachine{
     constructor(url,key) {
         this.dataurl = url
@@ -104,6 +101,4 @@ class CaipiaoMachine{
     }
 }
 
-
-var machine = new CaipiaoMachine(dataurl,key)
-machine.getData().getHtml().sendMail()
+module.exports = CaipiaoMachine
