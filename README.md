@@ -1,5 +1,3 @@
-<img src="assets/icon.png" alt="logo" height="120" align="right" />
-
 # Nodejs
 
 [![Gitter](https://badges.gitter.im/hfcx-nodejs/community.svg)](https://gitter.im/hfcx-nodejs/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)  [![Build Status](https://travis-ci.org/Jean1024/caipiao.svg?branch=master)](https://travis-ci.org/Jean1024/caipiao) 
