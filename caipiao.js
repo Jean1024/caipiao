@@ -112,7 +112,7 @@ class CaipiaoMachine{
                 _str += `
                     <h3>
                         <p>
-                            第${i}注【${item.front.join(',')} + ${item.back.join(',')}】 <b style="color:red;">${item.money}</b>
+                            第${i + 1}注【${item.front.join(',')} + ${item.back.join(',')}】 <b style="color:red;">${item.money}</b>
                         </p>
                     <h3>`
             });
