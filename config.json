@@ -1,0 +1,21 @@
+{
+    "from": "376327918@qq.com",
+    "nickname": "木木",
+    "to": "1737923789@qq.com,909528794@qq.com",
+    "key": "puyxxxxxxxxxbjjh",
+    "subject": "彩票来了",
+    "codelist": [
+        {
+            "front": [6, 18, 19, 27, 31],
+            "back": [6, 7]
+        },
+        {
+            "front": [3, 5, 7, 16, 25],
+            "back": [5, 8]
+        },
+        {
+            "front": [5, 6, 22, 25, 32],
+            "back": [5, 10]
+        }
+    ]
+}
