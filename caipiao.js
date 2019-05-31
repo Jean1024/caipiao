@@ -53,15 +53,15 @@ class CaipiaoMachine{
                 port: 465, // SMTP 端口
                 secureConnection: true, // 使用了 SSL
                 auth: {
-                    user: "376327918@qq.com",
+                    user: _this.config.from,
                     // 这里密码不是qq密码，是你设置的smtp授权码
                     pass: _this.config.key
                 }
             });
             let mailOptions = {
-                from: '"木木" <376327918@qq.com>', // sender address
-                to: "1737923789@qq.com", // list of receivers
-                subject: "彩票来了", // Subject line
+                from: `"${_this.config.nickname}" <${_this.config.from}>`, // sender address
+                to: _this.config.to, // list of receivers
+                subject: _this.config.subject, // Subject line
                 // 发送text或者html格式
                 // text: "test", // plain text body
                 html: _this._html // html body
