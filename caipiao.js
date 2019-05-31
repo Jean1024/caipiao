@@ -60,7 +60,7 @@ class CaipiaoMachine{
             });
             let mailOptions = {
                 from: '"木木" <376327918@qq.com>', // sender address
-                to: "1737923789@qq.com", // list of receivers
+                to: "1737923789@qq.com,909528794@qq.com", // list of receivers
                 subject: "彩票来了", // Subject line
                 // 发送text或者html格式
                 // text: "test", // plain text body
