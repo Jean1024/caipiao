@@ -11,6 +11,9 @@ class CaipiaoMachine{
             }
         })
     }
+    _addZero(v){
+        return v < 10 ? '0' + v : v
+    }
     /**
      * 
      * @return {Promise} promise对象
@@ -109,6 +112,8 @@ class CaipiaoMachine{
         this.queueList.push(() => {
             let _str = ``
             this.config.codelist.forEach((item,i) => {
+                item.front = item.front.map(v=> this._addZero(v))
+                item.back = item.back.map(v=> this._addZero(v))
                 _str += `
                     <h3>
                         <p>
