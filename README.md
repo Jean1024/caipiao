@@ -8,7 +8,7 @@
 
 ![qq20160428-0 2x](https://github.com/Jean1024/caipiao/blob/master/out.jpg)
 
-## 应用特性 ([更新日志](CHANGELOG.md))
+## 应用特性 ([更新日志](https://github.com/Jean1024/caipiao/commits/master))
 
 -  **获取彩票开奖数据**
 -  **邮件发送**
